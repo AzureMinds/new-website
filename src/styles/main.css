@@ -1343,3 +1343,29 @@ section {
     font-size: var(--text-sm);
   }
 }
+
+/* ================================
+   Footer
+   ================================ */
+footer {
+  background: linear-gradient(
+    90deg,
+    var(--color-nav-bg-start) 0%,
+    var(--color-nav-bg-mid) 50%,
+    var(--color-nav-bg-start) 100%
+  );
+  padding: var(--space-lg) 0;
+}
+
+footer .container {
+  text-align: center;
+}
+
+footer p {
+  font-family: var(--font-body);
+  font-weight: var(--font-regular);
+  font-size: var(--text-sm);
+  line-height: 20px;
+  letter-spacing: -0.15px;
+  color: rgba(255, 255, 255, 0.6);
+}
