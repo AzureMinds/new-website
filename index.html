@@ -5,185 +5,339 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Personal website and blog by Patrick Stewart, exploring insights and ideas at the intersection of Product Management and Data Science. Discover articles on AI, product strategy, and data-driven decision making." />
-    <meta name="keywords" content="product management, data science, AI, artificial intelligence, product strategy, data analytics, machine learning, product development, data-driven, blog" />
+    <meta name="description" content="Patrick Stewart — Technical Product Manager with a data science background. Product thinking with data science depth. Currently at Risilience, Cambridge." />
+    <meta name="keywords" content="product management, data science, technical product manager, AI, product strategy, data analytics, machine learning, Cambridge" />
     <meta name="author" content="Patrick Stewart" />
 
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://patrick-stewart-portfolio.vercel.app/" />
-    <meta property="og:title" content="Patrick Stewart - Product Management & Data Science" />
-    <meta property="og:description" content="Personal website and blog by Patrick Stewart, exploring insights and ideas at the intersection of Product Management and Data Science." />
+    <meta property="og:title" content="Patrick Stewart — Technical Product Manager" />
+    <meta property="og:description" content="Product thinking with data science depth. Technical Product Manager currently at Risilience." />
     <meta property="og:image" content="https://patrick-stewart-portfolio.vercel.app/images/favicon.png" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Patrick Stewart - Product Management & Data Science" />
-    <meta name="twitter:description" content="Personal website and blog exploring Product Management and Data Science. Insights on AI, product strategy, and data-driven decision making." />
+    <meta name="twitter:title" content="Patrick Stewart — Technical Product Manager" />
+    <meta name="twitter:description" content="Product thinking with data science depth. Technical Product Manager currently at Risilience." />
     <meta name="twitter:image" content="https://patrick-stewart-portfolio.vercel.app/images/favicon.png" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/src/assets/images/favicon.png" />
 
-    <!-- Google Fonts - Inter -->
+    <!-- Google Fonts: DM Serif Display + DM Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 
-    <title>Patrick Stewart - Product Management & Data Science</title>
+    <title>Patrick Stewart — Technical Product Manager</title>
   </head>
   <body>
-    <!-- Header/Navigation -->
-    <header id="header" class="navbar">
-      <nav class="navbar-container">
-        <a href="/" class="navbar-logo">Portfolio</a>
-        <div class="navbar-links">
-          <a href="/" class="nav-link active">Home</a>
-          <a href="/about.html" class="nav-link">About me</a>
-          <a href="/posts.html" class="nav-link">Posts</a>
-          <a href="mailto:patrickstewart1@hotmail.com" class="navbar-cta">Get in touch</a>
-        </div>
-      </nav>
+
+    <!-- Navigation -->
+    <header class="nav">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo">Patrick Stewart</a>
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#work" class="nav-link">Work</a>
+          <a href="#career" class="nav-link">Career</a>
+          <a href="#writing" class="nav-link">Writing</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+      </div>
     </header>
 
-    <!-- Main Content -->
     <main>
-      <!-- Hero Section -->
+
+      <!-- Hero -->
       <section id="hero" class="hero">
-        <div class="container">
-          <!-- Hero Image -->
-          <div class="hero-image-wrapper">
-            <div class="hero-blur-accent"></div>
-            <div class="hero-image-container">
-              <img src="/src/assets/images/profile.png" alt="Patrick Stewart" class="hero-image">
-              <div class="hero-image-overlay"></div>
-            </div>
-          </div>
-
-          <!-- Hero Content -->
+        <div class="section-inner hero-inner">
           <div class="hero-content">
+            <div class="hero-label">Technical Product Manager</div>
             <h1 class="hero-title">
-              <span class="hero-title-gradient">Product Manager</span>
-              <span class="hero-title-dark">& Tech Enthusiast</span>
+              Product thinking,<br>
+              <em>data science</em> depth.
             </h1>
-
-            <p class="hero-intro">
-              Product decision making is one of the most crucial things to get right at a company. So why are we all so bad at it? I unfortunately don't promise to have the answers but will provide everything I learn, unfiltered:
+            <p class="hero-bio">
+              I'm a Technical Product Manager with a data science background — which means I can define the roadmap and interrogate the technical work required to deliver it. Currently at Risilience, a company focussed on shaping how enterprises understand and act on climate risk.
             </p>
-
-            <!-- Info Cards -->
-            <div class="hero-cards">
-              <div class="hero-card">
-                <h3 class="hero-card-title">Currently @ Risilience</h3>
-                <ul class="hero-card-list">
-                  <li>
-                    <span class="arrow arrow--purple">→</span>
-                    <span>Overall product design and analytical frameworks</span>
-                  </li>
-                  <li>
-                    <span class="arrow arrow--purple">→</span>
-                    <span>Off-platform dashboarding initiatives</span>
-                  </li>
-                </ul>
+            <div class="hero-actions">
+              <div class="hero-actions-row">
+                <a href="/cv/Patrick-Stewart-CV.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                    <path d="M7 1v8M3.5 6l3.5 3.5L10.5 6M2 12h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  Download CV
+                </a>
+                <a href="#contact" class="btn btn-outline">Get in touch</a>
+                <a href="https://www.linkedin.com/in/patrick-stewart-832bb276?originalSubdomain=uk" class="btn btn-outline btn-icon" target="_blank" rel="noopener noreferrer">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  </svg>
+                  LinkedIn
+                </a>
               </div>
-
-              <div class="hero-card hero-card--gradient">
-                <h3 class="hero-card-title">Personal Focus</h3>
-                <ul class="hero-card-list">
-                  <li>
-                    <span class="arrow arrow--pink">→</span>
-                    <span>Making the best use of AI agents</span>
-                  </li>
-                  <li>
-                    <span class="arrow arrow--pink">→</span>
-                    <span>Broadening skillset through Figma and MCPs</span>
-                  </li>
-                </ul>
+              <div class="hero-actions-row">
+                <a href="https://github.com/AzureMinds" class="btn btn-outline btn-icon" target="_blank" rel="noopener noreferrer">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                  </svg>
+                  GitHub
+                </a>
+                <a href="https://medium.com/@patrick.stewart" class="btn btn-outline btn-icon" target="_blank" rel="noopener noreferrer">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
+                  </svg>
+                  Medium
+                </a>
               </div>
             </div>
+          </div>
+          <div class="hero-photo">
+            <img src="/src/assets/photos/profile.jpg" alt="Patrick Stewart" class="hero-photo-img">
+          </div>
+        </div>
+      </section>
 
-            <!-- Social Links -->
-            <div class="hero-social">
-              <a href="/cv/Patrick-Stewart-CV.pdf" class="hero-social-link" aria-label="CV" target="_blank" rel="noopener noreferrer">
-                <img src="/src/assets/images/icon-blog.svg" alt="CV">
-              </a>
-              <a href="https://www.linkedin.com/in/patrick-stewart-832bb276?originalSubdomain=uk" class="hero-social-link" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
-                <img src="/src/assets/images/icon-linkedin.svg" alt="LinkedIn">
-              </a>
-              <a href="https://x.com/Patrick74925271" class="hero-social-link" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
-                <img src="/src/assets/images/icon-twitter.svg" alt="Twitter">
-              </a>
-              <a href="https://github.com/AzureMinds" class="hero-social-link" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
-                <img src="/src/assets/images/icon-github.svg" alt="GitHub">
-              </a>
+      <!-- Divider -->
+      <div class="divider"></div>
+
+      <!-- Skills Strip -->
+      <section class="skills-strip" aria-label="Skills">
+        <div class="section-inner">
+          <div class="skills-grid">
+            <div class="skills-col">
+              <span class="skills-col-label">Product</span>
+              <div class="skills-tags">
+                <span class="tag tag--highlight">Jira</span>
+                <span class="tag tag--highlight">Figma</span>
+                <span class="tag">Roadmapping</span>
+                <span class="tag">Agile / Scrum</span>
+                <span class="tag">Discovery</span>
+                <span class="tag">User research</span>
+              </div>
+            </div>
+            <div class="skills-col">
+              <span class="skills-col-label">Data &amp; engineering</span>
+              <div class="skills-tags">
+                <span class="tag tag--highlight">Python</span>
+                <span class="tag tag--highlight">SQL</span>
+                <span class="tag">Azure ML</span>
+                <span class="tag">Databricks</span>
+                <span class="tag">Snowflake</span>
+                <span class="tag">GitHub</span>
+                <span class="tag">R</span>
+              </div>
+            </div>
+            <div class="skills-col">
+              <span class="skills-col-label">Analytics &amp; ML</span>
+              <div class="skills-tags">
+                <span class="tag tag--highlight">Power BI</span>
+                <span class="tag">scikit-learn</span>
+                <span class="tag">spaCy</span>
+                <span class="tag">NLP</span>
+                <span class="tag">TensorFlow</span>
+                <span class="tag">R Shiny</span>
+                <span class="tag">pandas</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Most Recent Articles Section -->
-      <section id="posts" class="articles-section">
-        <div class="container">
-          <header class="articles-header">
-            <h2 class="articles-title">Most Recent Articles</h2>
-            <div class="articles-title-underline"></div>
-          </header>
+      <!-- Divider -->
+      <div class="divider"></div>
 
+      <!-- What I Do -->
+      <section id="work" class="content-section">
+        <div class="section-inner">
+          <p class="section-label">What I do</p>
+          <h2 class="section-heading">Data driven product approach</h2>
+          <div class="cards-grid">
+            <div class="card">
+              <div class="card-icon">◈</div>
+              <h3 class="card-title">Product strategy &amp; roadmap</h3>
+              <p class="card-body">Defining what gets built and why — from initial discovery and stakeholder alignment through to prioritisation and delivery.</p>
+            </div>
+            <div class="card">
+              <div class="card-icon">⟨⟩</div>
+              <h3 class="card-title">Technical depth</h3>
+              <p class="card-body">Prior experience in hands on roles with Python, SQL, Azure, Databricks and Snowflake means I can interrogate an approach, not just describe one.</p>
+            </div>
+            <div class="card">
+              <div class="card-icon">◎</div>
+              <h3 class="card-title">Analytics &amp; data products</h3>
+              <p class="card-body">Built production analytics solutions in a wide variety of sectors including financial data, edtech and climate risk.</p>
+            </div>
+            <div class="card">
+              <div class="card-icon">◫</div>
+              <h3 class="card-title">Data visualisation</h3>
+              <p class="card-body">Power BI, R Shiny, and custom in-platform visualisations. Turning complex datasets into interfaces people actually use.</p>
+            </div>
+            <div class="card">
+              <div class="card-icon">⬡</div>
+              <h3 class="card-title">Stakeholder management</h3>
+              <p class="card-body">Comfortable working across engineering, commercial, and client teams — from initial proposal to post-launch support.</p>
+            </div>
+            <div class="card">
+              <div class="card-icon">◉</div>
+              <h3 class="card-title">Domain expertise</h3>
+              <p class="card-body">Climate risk quantification, consumer spend intelligence, and financial modelling. Microsoft certified in Azure DS &amp; Power BI.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Divider -->
+      <div class="divider"></div>
+
+      <!-- Career -->
+      <section id="career" class="content-section">
+        <div class="section-inner">
+          <p class="section-label">Career</p>
+          <h2 class="section-heading">The arc</h2>
+          <p class="section-subheading">Data science foundation, product management trajectory.</p>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-header">
+                <span class="timeline-company">Risilience</span>
+                <span class="timeline-date">Aug 2025 – Present</span>
+              </div>
+              <p class="timeline-role">Product Technical Manager · Cambridge</p>
+              <p class="timeline-desc">Building out in-platform analytics visualisations and streamlining enterprise data ingestion for a SaaS platform that helps large organisations financially quantify their climate risk.</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-header">
+                <span class="timeline-company">Fable Data</span>
+                <span class="timeline-date">May 2023 – Aug 2025</span>
+              </div>
+              <p class="timeline-role">Data Scientist · London</p>
+              <p class="timeline-desc">Building out aggregated and row level data products built on real-time European consumer spend data sourced from banks and card issuers.</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-header">
+                <span class="timeline-company">Algospark</span>
+                <span class="timeline-date">Jan 2022 – May 2023</span>
+              </div>
+              <p class="timeline-role">Data Scientist · London</p>
+              <p class="timeline-desc">Led full project lifecycle on a learner clustering platform for a large UK education provider — enabling early identification of students at risk of not completing their course.</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-header">
+                <span class="timeline-company">Materials Nexus</span>
+                <span class="timeline-date">Sept 2021 – Jan 2022</span>
+              </div>
+              <p class="timeline-role">Data Scientist (Contract) · London</p>
+              <p class="timeline-desc">Short-term contract at a materials science startup, improving data production and ML tasks offered through its software platform.</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-header">
+                <span class="timeline-company">Megabuyte</span>
+                <span class="timeline-date">Jul 2018 – Sept 2020</span>
+              </div>
+              <p class="timeline-role">Data Analyst · Reading</p>
+              <p class="timeline-desc">Data pre-processing, modelling, and visualisation for a market research platform covering the UK technology sector. Delivered financial analysis reports to subscribers.</p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-header">
+                <span class="timeline-company">King's College London</span>
+                <span class="timeline-date">2020 – 2021</span>
+              </div>
+              <p class="timeline-role">MSc Data Science · Distinction (74%)</p>
+              <p class="timeline-desc">Dissertation sponsored by Westminster City Council — applied NLP to geo-located Twitter data to understand how people respond to Oxford Street's built environment.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Divider -->
+      <div class="divider"></div>
+
+      <!-- Writing -->
+      <section id="writing" class="content-section">
+        <div class="section-inner">
+          <p class="section-label">Writing</p>
+          <h2 class="section-heading">From the notebook</h2>
+          <p class="section-subheading">Notes on data science, product thinking, and the space between them.</p>
           <div class="articles-grid">
-            <!-- Article 1 -->
             <a href="https://medium.com/patricks-notes/understanding-object-oriented-programming-oop-and-more-advanced-concepts-f5caf74e346e" class="article-card" target="_blank" rel="noopener noreferrer">
-              <div class="article-card-image-wrapper">
-                <img src="/src/assets/images/article-oop.png" alt="Understanding Object Oriented Programming" class="article-card-image">
-                <div class="article-card-overlay"></div>
-                <span class="article-card-read-more">Read More →</span>
+              <div class="article-card-image">
+                <img src="/src/assets/images/article-oop.png" alt="Understanding Object Oriented Programming">
               </div>
-              <div class="article-card-content">
-                <h3 class="article-card-title">Understanding Object Oriented Programming (OOP) and more advanced concepts</h3>
+              <div class="article-card-body">
+                <span class="article-card-category">Engineering</span>
+                <p class="article-card-title">Understanding Object Oriented Programming and more advanced concepts</p>
+                <span class="article-card-link">
+                  Read on Medium
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+                    <path d="M2.5 6h7M6.5 3l3 3-3 3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
               </div>
             </a>
-
-            <!-- Article 2 -->
             <a href="https://medium.com/patricks-notes/kaggle-is-not-all-you-need-ba0eac995887" class="article-card" target="_blank" rel="noopener noreferrer">
-              <div class="article-card-image-wrapper">
-                <img src="/src/assets/images/article-kaggle.png" alt="Kaggle is not all you need" class="article-card-image">
-                <div class="article-card-overlay"></div>
-                <span class="article-card-read-more">Read More →</span>
+              <div class="article-card-image">
+                <img src="/src/assets/images/article-kaggle.png" alt="Kaggle is not all you need">
               </div>
-              <div class="article-card-content">
-                <h3 class="article-card-title">Kaggle is not all you need</h3>
+              <div class="article-card-body">
+                <span class="article-card-category">Data Science</span>
+                <p class="article-card-title">Kaggle is not all you need</p>
+                <span class="article-card-link">
+                  Read on Medium
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+                    <path d="M2.5 6h7M6.5 3l3 3-3 3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
               </div>
             </a>
-
-            <!-- Article 3 -->
             <a href="https://medium.com/@patrick.stewart/understand-your-media-channel-effectiveness-through-mixed-marketing-modelling-43b55413a3cf" class="article-card" target="_blank" rel="noopener noreferrer">
-              <div class="article-card-image-wrapper">
-                <img src="/src/assets/images/article-media-mix.png" alt="Media mix modelling" class="article-card-image">
-                <div class="article-card-overlay"></div>
-                <span class="article-card-read-more">Read More →</span>
+              <div class="article-card-image">
+                <img src="/src/assets/images/article-media-mix.png" alt="Media mix modelling">
               </div>
-              <div class="article-card-content">
-                <h3 class="article-card-title">As a data scientist you need to understand media mix modelling</h3>
+              <div class="article-card-body">
+                <span class="article-card-category">Analytics</span>
+                <p class="article-card-title">As a data scientist you need to understand media mix modelling</p>
+                <span class="article-card-link">
+                  Read on Medium
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+                    <path d="M2.5 6h7M6.5 3l3 3-3 3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
               </div>
             </a>
           </div>
         </div>
       </section>
 
-      <!-- CTA Section (Let's Work Together) -->
-      <section id="contact" class="cta-section">
-        <div class="container">
-          <h2 class="cta-title">Let's Work Together</h2>
-          <p class="cta-subtitle">Have a project in mind? Let's create something amazing.</p>
-          <a href="mailto:patrickstewart1@hotmail.com" class="cta-button">Get In Touch</a>
+      <!-- Divider -->
+      <div class="divider"></div>
+
+      <!-- Contact -->
+      <section id="contact" class="content-section content-section--centered">
+        <div class="section-inner">
+          <p class="section-label">Get in touch</p>
+          <h2 class="section-heading">Open to the right role</h2>
+          <p class="section-subheading">Senior TPM positions in climate tech, AI/ML product, or data &amp; analytics — remote or Cambridge-based.</p>
+          <div class="contact-actions">
+            <a href="mailto:patrickstewart1@hotmail.com" class="btn btn-primary">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <rect x="1" y="3" width="12" height="8" rx="1" stroke="currentColor" stroke-width="1.3"/>
+                <path d="M1 4l6 4 6-4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+              </svg>
+              Email me
+            </a>
+            <a href="https://www.linkedin.com/in/patrick-stewart-832bb276?originalSubdomain=uk" class="btn btn-outline" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/AzureMinds" class="btn btn-outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://medium.com/@patrick.stewart" class="btn btn-outline" target="_blank" rel="noopener noreferrer">Medium</a>
+          </div>
         </div>
       </section>
+
     </main>
 
     <!-- Footer -->
-    <footer>
-      <div class="container">
-        <p>&copy; 2026 Patrick Stewart. All rights reserved.</p>
-      </div>
+    <footer class="footer">
+      <p class="footer-text">© 2026 Patrick Stewart · Cambridge, UK</p>
     </footer>
 
     <!-- Main JavaScript -->
