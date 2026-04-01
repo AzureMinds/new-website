@@ -1,55 +1,41 @@
-# Personal Website
+# Patrick Stewart — Personal Website
 
-A modern personal website built with vanilla JavaScript and Vite.
+Personal portfolio site for Patrick Stewart, Technical Product Manager.
 
-## Project Structure
+## Stack
 
-```
-├── src/
-│   ├── styles/
-│   │   ├── reset.css          # CSS reset
-│   │   ├── variables.css      # Design tokens from Figma
-│   │   ├── main.css          # Main styles
-│   │   └── components/       # Component-specific styles
-│   ├── js/
-│   │   ├── main.js           # JavaScript entry point
-│   │   └── components/       # JavaScript components
-│   └── assets/
-│       ├── images/           # Images
-│       └── fonts/            # Custom fonts
-├── public/                   # Static assets
-├── index.html               # Main HTML file
-└── package.json
-
-```
+- Vanilla HTML/CSS/JS
+- [Vite](https://vitejs.dev/) (via rolldown-vite)
+- Deployed on [Vercel](https://vercel.com)
 
 ## Development
 
 ```bash
-# Install dependencies
 npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
+npm run dev      # Start dev server with hot reload
+npm run build    # Build to /dist
+npm run preview  # Preview production build locally
 ```
 
-## Design Tokens
+## Structure
 
-All design tokens (colors, typography, spacing) are centralized in `src/styles/variables.css`.
-Update these values based on your Figma designs.
+```
+index.html          # All page content (single page)
+src/
+  main.js           # Entry point — imports CSS
+  styles/
+    variables.css   # Design tokens (colours, fonts, spacing)
+    main.css        # All component styles
+    reset.css       # Base reset
+public/
+  images/           # Article images, profile photo, favicon
+  cv/               # CV PDF
+```
 
-## Deployment
+## Design
 
-This site can be deployed to:
-- Vercel (recommended)
-- Netlify
-- GitHub Pages
-- Cloudflare Pages
+Dark theme with gold accent (`#c8b88a`). Fonts: DM Serif Display (headings) + DM Sans (body). All design values are CSS custom properties in `src/styles/variables.css`.
 
-See deployment instructions in the main documentation.
+## Figma
+
+Design file: [Personal Website Revamp](https://www.figma.com/design/B5jQazlCEsZdyt0oH7KFs1/Personal-Website-Revamp)

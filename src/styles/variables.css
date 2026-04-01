@@ -5,10 +5,11 @@
   --color-surface-2: #1a1a1a;
   --color-text-primary: #e8e6e0;
   --color-text-secondary: #a8a49c;
-  --color-text-muted: #7a7870;
+  --color-text-muted: #908d84;
   --color-accent: #c8b88a;
   --color-accent-bg: rgba(200, 184, 138, 0.06);
   --color-accent-border: rgba(200, 184, 138, 0.15);
+  --color-focus-ring: rgba(200, 184, 138, 0.35);
   --color-border: rgba(255, 255, 255, 0.07);
   --color-border-light: rgba(255, 255, 255, 0.14);
   --color-tag-highlight-border: rgba(200, 184, 138, 0.25);
